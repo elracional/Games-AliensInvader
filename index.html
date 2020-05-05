@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<title>Aliens Invaders</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('img/universe2.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p><button class="w3-button w3-blue"><a href="juego.html">PLAY!!</a></button></p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('description').style.display='block'" class="w3-button w3-blue">Description Game</button></p>
+    
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">ALIENS INVADERS</p>
+    <p class="w3-large"></p>
+    <p>@elracional</a></p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="description" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-indigo w3-display-container">
+      <span onclick="document.getElementById('description').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Description Game</h1>
+    </div>
+    <div class="w3-container">
+      <p>Aliens Invaders is the recreation of a classic game that reminds us of the game of the 80s, but now the challenge is bigger, can you get all the possible points ?, Can you save the world from this attack ?, Play Now and try it.</p>
+
+      <p>The mechanics of the game is as follows: to move you will use the left and right flehas, to attack the alines you must press the space bar.
+      In this game you have 10 levels for each level that you can advance the aliens will move faster and throw more bombs, it is worth mentioning that every time you kill an alien you will earn 5 points, you must also be careful since at the beginning you will be given 5 lives but every time you aliens manage to attack you, one life will be taken away, and when you have less than 3 lives your score will go down but if you manage to reach level 4 with all your lives the points will triple.
+      You can win the game in two ways if you win all levels or if you get 2000 points.</p>
+
+      <p></p>
+      <p></p>
+
+    </div>
+   
+  </div>
+</div>
+
+
+</body>
+</html>
